@@ -25,8 +25,24 @@ return list of voo where data is today
 ```
 **Response** - Exemplo de voos em JSON
 ```
-{
-}
+[
+  {
+    'id': 1,
+    'localPartida': 'string',
+    'localChegada': 'string',
+    'horaPartida': '12:00:00',
+    'horaChegada': '16:00:00',
+    'data': '2022-03-13'
+  },
+  {
+    'id': 2,
+    'localPartida': 'string',
+    'localChegada': 'string',
+    'horaPartida': '12:00:00',
+    'horaChegada': '16:00:00',
+    'data': '2022-03-14'
+  }
+]
 ```
 
 ## /passagem
@@ -137,10 +153,10 @@ return void
 ```
 {
   'localPartida': 'string',
-	'localChegada': 'string',
-	'horaPartida': '12:00:00',
-	'horaChegada': '16:00:00',
-	'data': '2022-03-13'
+  'localChegada': 'string',
+  'horaPartida': '12:00:00',
+  'horaChegada': '16:00:00',
+  'data': '2022-03-13'
 }
 ```
 **Response** - Exemplo em JSON
@@ -148,9 +164,9 @@ return void
 {
   'id': 1,
   'localPartida': 'string',
-	'localChegada': 'string',
-	'horaPartida': '12:00:00',
-	'horaChegada': '16:00:00',
-	'data': '2022-03-13'
+  'localChegada': 'string',
+  'horaPartida': '12:00:00',
+  'horaChegada': '16:00:00',
+  'data': '2022-03-13'
 }
 ```
